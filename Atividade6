@@ -1,0 +1,7 @@
+Alunos(ID_aluno, nome, data de nascimento, curso); PK(ID_aluno),  Fk(ID_curso)
+
+Funcionarios(ID_funcionarios, nome, departamento, telefone); Pk((ID_funcionários), candidata(telefone) FK(ID_funcionarios)
+
+Professores(ID_professores,nome, especialidade, telefone, email, ID_funcionários); PK(ID_professores), candidata(telefone)
+
+Cursos(ID_cursos, disciplina, nome, carga-horaria); Pk(ID_curso)
