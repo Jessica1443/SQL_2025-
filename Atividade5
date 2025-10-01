@@ -1,0 +1,16 @@
+Alunos-| nº de alunos
+       | nome de aluno 
+       | Ano    
+       | Encarregado de Educação
+
+Profesores| nome de professores
+          | nº de telefone
+          | morada
+
+Curso| nome
+     | sala
+      
+funcionários| nome
+            | nº de telefone
+            | funções
+            | morada
