@@ -1,0 +1,14 @@
+USE londres ;
+
+SELECT * FROM cidades;
+
+SELECT cidadesID FROM CIDADES;
+
+INSERT INTO  cidades (cidadesID, Nome_cidades, Codigo_Postal) 
+VALUES 
+(1,"lisboa",1000),
+(2, "porto", 4150),
+(3, "Vila nova de gaia", 4430),
+(4, "amadora", 1500),
+(5, "braga", 4700);
+
