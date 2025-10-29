@@ -21,8 +21,12 @@ CREATE TABLE produtos(
 		
  SELECT * FROM produtos;
  
- SELECT cod_prod, valor_unit
+ SELECT cod_prod, valor_unit AS valor_unidade
  FROM produtos 
+ WHERE desconto IS NULL OR desconto = 0;
+ 
+ UPDATE produtos
+ SET desconto = 0
  WHERE desconto IS NULL;
  
  
@@ -32,7 +36,8 @@ CREATE TABLE produtos(
  
  SELECT valor_unit , quantidade
  FROM produtos
- WHERE cod_prod = 2;
+ WHERE cod_prod = 2;   
+ 
  
  
  SET SQL_SAFE_UPDATES = 0;
