@@ -41,6 +41,9 @@ CREATE TABLE produtos(
  
  
  SET SQL_SAFE_UPDATES = 0;
+
+
+correção da atividade 18
  
  
  
